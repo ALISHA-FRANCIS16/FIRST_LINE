@@ -29,15 +29,15 @@ nav ul li a:hover{
     
 }
 
+.imgsize{
+    width: 100%;
+}
 .row{
     display: flex;
     width: 100%;
     align-items: center;
     flex-wrap: wrap;
     padding: 10px 0;
-}
-.imgsize{
-    width: 100%;
 }
 
 .text-col{
@@ -161,6 +161,19 @@ nav ul li a:hover{
 .ftsubmit input{
     flex-basis: 60%;
     margin-bottom: 20px;
+                                 
+}
+input[type="text"]
+{
     background: transparent;
     border: 1px solid white;
 }
+
+textarea{
+    width: 100%;
+    color: #FFF;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
