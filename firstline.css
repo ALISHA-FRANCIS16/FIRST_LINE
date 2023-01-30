@@ -1,0 +1,163 @@
+#maindiv{
+    padding: 50px 12%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+span{
+    color: #b6003d;
+}
+
+nav ul li a:hover{
+    color:#b9003e;
+}
+
+.features{
+    padding: 10px 12%;
+    font-size: 22px;
+    
+}
+
+.row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 0;
+}
+
+.text-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+
+.img-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+
+.img-col img{
+    display: block;
+    height: 75%;
+    width: 80%;
+    margin: auto;
+}
+
+.about{
+    padding: 10px 12%;
+    padding-top: 50px;
+    font-size: 22px;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgb(255, 106, 135)), to(#f7e6ff)) fixed;
+
+    
+}
+
+#mleft{
+    margin-left: 83px;
+    color: white;
+}
+
+.img-col2{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+
+.img-col2 img{
+    display: block;
+    height: 50%;
+    width: 50%;
+    margin-left: 60px;
+    border-radius: 50%;
+}
+
+.text-col2{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+
+.txtcolor1{
+    color: rgb(83, 143, 255);
+}
+
+.consultation{
+    padding: 10px 12px;
+    font-size: 22px;
+    
+}
+
+.text-col3{
+    flex-basis: 60%;
+    margin-bottom: 20px;
+}
+
+.img-col3{
+    flex-basis: 300px;
+    margin-bottom: 20px;
+}
+
+.img-col3 img{
+    display: block;
+    height: 200px;
+    width:100%;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.faq{
+    padding: 10px 12%;
+    font-size: 22px;  
+}
+
+.text-col4{
+    flex-basis: 60%;
+    margin-bottom: 20px;
+}
+
+.img-col4{
+    flex-basis: 400px;
+    margin-bottom: 20px;
+}
+
+.img-col4 img{
+    display: block;
+    height: 80%;
+    width: 75%;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.footer{
+    background-color: #1a3126;
+}
+
+#ftext{
+    color: white;
+}
+
+.footer{
+    padding: 10px 12%;
+    font-size: 22px;  
+}
+
+.ftdetails{
+    flex-basis: 60%;
+    margin-bottom: 20px;
+}
+
+.ftsubmit input{
+    flex-basis: 60%;
+    margin-bottom: 20px;
+    background: transparent;
+    border: 1px solid white;
+}
