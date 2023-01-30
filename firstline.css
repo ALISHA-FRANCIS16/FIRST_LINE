@@ -36,6 +36,9 @@ nav ul li a:hover{
     flex-wrap: wrap;
     padding: 10px 0;
 }
+.imgsize{
+    width: 100%;
+}
 
 .text-col{
     flex-basis: 50%;
